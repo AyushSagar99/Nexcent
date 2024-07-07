@@ -2,6 +2,11 @@ import { ArrowBigRight, ArrowBigRightDash, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
 import logo1 from "../../../public/Logo1.jpg"
+import logo2 from "../../../public/Logo2.jpg"
+import logo3 from "../../../public/Logo3.jpg"
+import logo4 from "../../../public/Logo4.jpg"
+import logo5 from "../../../public/Logo5.jpg"
+import logo6 from "../../../public/Logo6.jpg"
 
 export default function Tim() {
   return (
@@ -32,35 +37,35 @@ export default function Tim() {
               unoptimized
             />
             <Image
-              src="/logo2.jpg"
+              src={logo2}
               alt='icon'
               width={48}
               height={48}
               className='rounded-full'
             />
             <Image
-              src="/logo3.jpg"
+              src={logo3}
               alt='icon'
               width={48}
               height={48}
               className='rounded-full'
             />
             <Image
-              src="/logo4.jpg"
+              src={logo4}
               alt='icon'
               width={48}
               height={48}
               className='rounded-full'
             />
             <Image
-              src="/logo5.jpg"
+              src={logo5}
               alt='icon'
               width={48}
               height={48}
               className='rounded-full'
             />
             <Image
-              src="/logo6.jpg"
+              src={logo6}
               alt='icon'
               width={48}
               height={48}
