@@ -6,7 +6,7 @@ import { ModeToggle } from './toggleMode';
 
 export default function Header() {
   return (
-    <header className='z-50 relative shadow-lg'>
+    <header className='z-50 relative shadow-lg dark:shadow-slate-900'>
       <div className='flex flex-wrap justify-between items-center bg-heroBg dark:bg-background p-4'>
         <div className='flex items-center '>
           <Image 
