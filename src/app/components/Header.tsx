@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className='z-50 relative shadow-lg'>
       <div className='flex flex-wrap justify-between items-center bg-heroBg dark:bg-background p-4'>
-        <div className='flex items-center'>
+        <div className='flex items-center '>
           <Image 
             src="/Icon.jpg"
             alt="icon"
@@ -25,7 +25,7 @@ export default function Header() {
           />
         </div>
         <div className='lg:hidden x mt-4 flex  w-full justify-center'>
-          <nav className='flex flex-wrap space-x-6'>
+          <nav className='flex flex-wrap justify-center space-x-6'>
             <p className='cursor-pointer hover:text-gray-300'>Home</p>
             <p className='cursor-pointer hover:text-gray-300'>Service</p>
             <p className='cursor-pointer hover:text-gray-300'>Feature</p>
