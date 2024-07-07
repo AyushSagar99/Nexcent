@@ -1,6 +1,7 @@
 import { ArrowBigRight, ArrowBigRightDash, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
+import logo1 from "../../../public/Logo1.jpg"
 
 export default function Tim() {
   return (
@@ -23,7 +24,7 @@ export default function Tim() {
           <p className='text-gray-400 ml-4'>British Dragon Boat Racing Association</p>
           <div className='flex lg:flex-row gap-14 mt-2 ml-4'>
             <Image
-              src="/logo1.jpg"
+              src={logo1}
               alt='icon'
               width={48}
               height={48}
