@@ -7,7 +7,7 @@ export default function Community() {
   <div className=''>
     <p className='font-semibold text-3xl text-center flex flex-col mt-8 mb-2'>Manage Your entire community <span> in a single system</span></p>
     <p className='text-gray-400 text-center'>Who is Nextcent suitable for?</p>
-    <div className='flex gap-20 mt-8'>
+    <div className=' lg:flex lg:gap-20 gap-30 mt-8'>
 
         <Card className='h-[260px] w-[299px] items-center text-center justify-center flex gap-2 flex-col'>
             <Image 

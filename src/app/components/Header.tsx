@@ -1,5 +1,5 @@
 import { Toggle } from '@/components/ui/toggle';
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import Image from 'next/image';
 import React from 'react';
 import { ModeToggle } from './toggleMode';
@@ -7,8 +7,8 @@ import { ModeToggle } from './toggleMode';
 export default function Header() {
   return (
     <header className='z-50 relative shadow-lg'>
-      <div className='flex justify-between items-center bg-heroBg dark:bg-background p-4'>
-        <div className='flex items-center space-x-4'>
+      <div className='flex flex-wrap justify-between items-center bg-heroBg dark:bg-background p-4'>
+        <div className='flex items-center '>
           <Image 
             src="/Icon.jpg"
             alt="icon"
@@ -24,7 +24,7 @@ export default function Header() {
             priority
           />
         </div>
-        <nav className='flex space-x-6 '>
+        <nav className='hidden md:flex space-x-6 mt-4 md:mt-0'>
           <p className='cursor-pointer hover:text-gray-300'>Home</p>
           <p className='cursor-pointer hover:text-gray-300'>Service</p>
           <p className='cursor-pointer hover:text-gray-300'>Feature</p>
@@ -32,14 +32,14 @@ export default function Header() {
           <p className='cursor-pointer hover:text-gray-300'>Testimonial</p>
           <p className='cursor-pointer hover:text-gray-300'>FAQ</p>
         </nav>
-        <div className='flex space-x-4'>
+        <div className='flex space-x-4 mt-4 md:mt-0'>
           <button className='bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200'>
             Login
           </button>
-          <button  className='bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition duration-200'>
+          <button className='bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition duration-200'>
             Sign Up
           </button>
-          <ModeToggle/>
+          <ModeToggle />
         </div>
       </div>
     </header>

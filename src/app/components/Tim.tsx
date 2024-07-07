@@ -21,7 +21,7 @@ export default function Tim() {
           </p>
           <p className='text-green-600 font-semibold mt-2 ml-4'>Tim Smith</p>
           <p className='text-gray-400 ml-4'>British Dragon Boat Racing Association</p>
-          <div className='flex gap-14 mt-2 ml-4'>
+          <div className='flex lg:flex-row gap-14 mt-2 ml-4'>
             <Image
               src="/logo1.jpg"
               alt='icon'
