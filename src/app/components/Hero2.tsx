@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import React from 'react';
+import illustration from "../../../public/Illustration.jpg"
 
 export default function Hero2() {
   return (
@@ -15,7 +16,7 @@ export default function Hero2() {
         </div>
         <div className='md:flex-1 flex justify-center md:justify-end'>
           <Image 
-            src="/illustration.jpg"
+            src={illustration}
             alt="carousel"
             width={391}
             height={407}

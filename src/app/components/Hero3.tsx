@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import illustration from "../../../public/Illustration.jpg"
 
 export default function Hero3() {
   return (
@@ -14,7 +15,7 @@ export default function Hero3() {
         </div>
         <div className='md:flex-1 flex justify-center md:justify-end'>
           <Image 
-            src="/illustration.jpg"
+            src={illustration}
             alt="carousel"
             width={391}
             height={407}
