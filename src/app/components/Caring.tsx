@@ -6,9 +6,9 @@ import React from 'react';
 export default function Caring() {
   return (
     <div className='py-12 px-4 md:px-12 mb-14'>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex lg:flex-col flex-col justify-center items-center'>
         <p className='text-4xl font-semibold text-center'>Caring is the new marketing</p>
-        <p className='text-gray-400 text-center w-[40rem] leading-relaxed mt-3'>
+        <p className='text-gray-400 text-center lg:w-[40rem] leading-relaxed mt-3'>
           The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.
         </p>
         <div className='flex lg:flex-row flex-col lg:gap-4 gap-20 mt-4 relative'>

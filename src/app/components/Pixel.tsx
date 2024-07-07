@@ -15,7 +15,7 @@ export default function Pixel() {
           />
         </div>
         <div className='md:w-1/2'>
-          <p className='font-semibold text-4xl mb-4'>
+          <p className='font-semibold  text-4xl mb-4'>
             The unseen of spending three <span className='block'>years at Pixelgrade</span>
           </p>
           <p className='text-gray-600  leading-relaxed font-extralight text-md'>
