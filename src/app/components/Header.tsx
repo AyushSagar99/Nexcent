@@ -24,8 +24,8 @@ export default function Header() {
             priority
           />
         </div>
-        <div className='lg:hidden mt-4 flex w-full justify-center'>
-          <nav className='flex space-x-6'>
+        <div className='lg:hidden x mt-4 flex  w-full justify-center'>
+          <nav className='flex flex-wrap space-x-6'>
             <p className='cursor-pointer hover:text-gray-300'>Home</p>
             <p className='cursor-pointer hover:text-gray-300'>Service</p>
             <p className='cursor-pointer hover:text-gray-300'>Feature</p>
@@ -34,7 +34,7 @@ export default function Header() {
             <p className='cursor-pointer hover:text-gray-300'>FAQ</p>
           </nav>
         </div>
-        <nav className='hidden lg:flex space-x-6 mt-4'>
+        <nav className='hidden lg:flex  space-x-6 mt-4'>
           <p className='cursor-pointer hover:text-gray-300'>Home</p>
           <p className='cursor-pointer hover:text-gray-300'>Service</p>
           <p className='cursor-pointer hover:text-gray-300'>Feature</p>
