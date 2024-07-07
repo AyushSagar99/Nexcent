@@ -7,7 +7,7 @@ import { ModeToggle } from './toggleMode';
 export default function Header() {
   return (
     <header className='z-50 relative shadow-lg'>
-      <div className='flex flex-wrap justify-between items-center bg-heroBg dark:bg-background p-4'>
+      <div className='flex lg:flex-wrap justify-between items-center bg-heroBg dark:bg-background p-4'>
         <div className='flex items-center '>
           <Image 
             src="/Icon.jpg"
@@ -24,7 +24,7 @@ export default function Header() {
             priority
           />
         </div>
-        <nav className='hidden md:flex space-x-6 mt-4 md:mt-0'>
+        <nav className='lg:flex  space-x-6 mt-4 '>
           <p className='cursor-pointer hover:text-gray-300'>Home</p>
           <p className='cursor-pointer hover:text-gray-300'>Service</p>
           <p className='cursor-pointer hover:text-gray-300'>Feature</p>
