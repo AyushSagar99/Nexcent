@@ -28,6 +28,7 @@ export default function Tim() {
               width={48}
               height={48}
               className='rounded-full'
+              unoptimized
             />
             <Image
               src="/logo2.jpg"
