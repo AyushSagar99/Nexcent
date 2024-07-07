@@ -5,7 +5,7 @@ import { BsPlaystation, BsYoutube } from 'react-icons/bs';
 
 export default function Footer() {
   return (
-    <div className='bg-footerBg w-full flex flex-col md:flex-row justify-between p-6'>
+    <div className='bg-footerBg w-full flex flex-col items-center md:flex-row justify-between p-6'>
       <div className='flex flex-col gap-2 mb-6 md:mb-0'>
         <div className='flex'>
           <Image 
