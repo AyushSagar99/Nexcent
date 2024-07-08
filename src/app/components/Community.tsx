@@ -14,7 +14,7 @@ export default function Community() {
             alt="community"
             width={65}
             height={56}
-            className=''
+            className='rounded-lg'
           />
           <CardTitle className=''>
             Membership Organization
@@ -29,7 +29,7 @@ export default function Community() {
             alt="community"
             width={65}
             height={56}
-            className=''
+            className='rounded-lg'
           />
           <CardTitle className=''>
             National Association
@@ -44,7 +44,7 @@ export default function Community() {
             alt="community"
             width={65}
             height={56}
-            className=''
+            className='rounded-lg'
           />
           <CardTitle className=''>
             Clubs And Groups
